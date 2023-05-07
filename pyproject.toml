@@ -1,0 +1,18 @@
+[tool.poetry]
+name = "blocks"
+version = "0.1.0"
+description = ""
+authors = ["Makarov Timur <makarov-timyr@ya.ru>"]
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.10"
+pytest = "^7.3.1"
+fastapi = {extras = ["all"], version = "^0.95.1"}
+aioredis = "^2.0.1"
+cryptography = "^40.0.2"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
